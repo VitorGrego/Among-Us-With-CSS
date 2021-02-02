@@ -7,9 +7,10 @@ body {
     background-color:yellow;
     width:100vw;
     height:100vh;
+    flex-direction:column;
 }
 .player {
-    background-color:#840931;
+    background-color:rgb(127.5,0,0);
     width:170px;
     height:270px;
     border:10px solid black;
@@ -54,7 +55,7 @@ body {
 .bag {
     width:40px;
     height:150px;
-    background-color:#840931;
+    background-color:rgb(127.5,0,0);
     position:absolute;
     margin-left:-60px;
     margin-top:80px;
@@ -91,7 +92,7 @@ body {
     position:absolute;
     width:65px;
     height:70px;
-    background-color:#840931;
+    background-color:rgb(127.5,0,0);
     margin-top:270px;
     margin-left:-10px;
     border-radius:0px 0px 30px 30px;
@@ -102,8 +103,96 @@ body {
     position:absolute;
     width:65px;
     height:70px;
-    background-color:#840931;
+    background-color:rgb(127.5,0,0);
     margin-top:270px;
     margin-left:95px;
     border-radius:0px 0px 30px 30px;
+}
+.colors {
+    display:flex;
+    flex-direction:column;
+    margin-top:-70px;
+}
+.top {
+    background-color:#acf5a3;
+    padding-top:5px;
+}
+.top-ul {
+    display:flex;
+    flex-direction:row;
+    list-style:none;
+    background-color:#acf5a3;
+    margin:0px;
+    padding:0px;
+}
+.top-ul li {
+    padding:3px;
+    background-color:#c4f7c0;
+    margin-right:5px;
+}
+.top-ul li:first-child {
+    margin-left:5px;
+}
+.bottom-color {
+    width:207px;
+    background-color:#acf5a3;
+    margin-bottom:20px;
+}
+.bottom-color ul {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    list-style:none;
+    flex-direction:row;
+    flex-wrap:wrap;
+    padding:0px 20px 0px 20px;
+}
+.bottom-color ul li {
+    border-radius:5px;
+    padding:15px;
+    /* background-color:#FFF; */
+    margin:8px;
+    border:3px solid black;
+}
+.Red {
+    background-color:red;
+}
+.Green {
+    background-color:green;
+}
+.Bronw {
+    background-color:brown;
+}
+.Blue {
+    background-color:blue;
+}
+.Pink {
+    background-color:pink;
+}
+.Yellow {
+    background-color:yellow;
+}
+.Brown {
+    background-color:rgb(65, 41, 15);
+}
+.Purple {
+    background-color:purple;
+}
+.LGreen {
+    background-color:lightgreen;
+}
+.Cyan {
+    background-color:cyan;
+}
+.White {
+    background-color:White;
+}
+.Black {
+    background-color:black;
+}
+.Orange {
+    background-color:orange;
+}
+.Gray {
+    background-color:gray;
 }

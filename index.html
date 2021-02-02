@@ -4,8 +4,39 @@
         <meta charset="utf-8">
         <title>Among us</title>
         <link type="text/css" rel="stylesheet" href="style.css">
+		<meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
     </head>
     <body>
+        <div class="colors">
+            <div class="top">
+                <ul class="top-ul">
+                    <li>Color</li>
+                    <li>Hat</li>
+                    <li>Pet</li>
+                    <li>Skin</li>
+                    <li>Game</li>
+                </ul>
+            </div>
+            <div class="bottom-color">
+                <ul>
+                    <li onclick="changeColor('255', '0', '0')" class="Red"></li>
+                    <li onclick="changeColor('17', '45', '211')" class="Blue"></li>
+                    <li onclick="changeColor('18', '127', '47')" class="Green"></li>
+                    <li onclick="changeColor('235', '84', '184')" class="Pink"></li>
+                    <li onclick="changeColor('240', '123', '12')" class="Orange"></li>
+                    <li onclick="changeColor('244', '245', '85')" class="Yellow"></li>
+                    <li onclick="changeColor('65', '68', '79')" class="Black"></li>
+                    <li onclick="changeColor('214', '223', '240')" class="White"></li>
+                    <li onclick="changeColor('109', '48', '186')" class="Purple"></li>
+                    <li onclick="changeColor('113', '72', '29')" class="Brown"></li>
+                    <li onclick="changeColor('57', '254', '219')" class="Cyan"></li>
+                    <li onclick="changeColor('82', '239', '58')" class="LGreen"></li>
+
+                    <!-- <li onclick="changeColorNew('101', '105', '100')" class="Gray"></li> -->
+
+                </ul>
+            </div>
+        </div>
         <div class="player">
             <div class="inside"></div>
             <div class="glasses">
@@ -24,5 +55,8 @@
             <div class="leg-1"></div>
             <div class="leg-2"></div>
         </div>
+        
+        <script type="text/javascript" src="script.js"></script>
+
     </body>
 </html>
